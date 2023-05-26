@@ -1,0 +1,25 @@
+{
+    "development": {
+        "DB": {
+            "username": "root",
+            "password": "",
+            "database": "rest-server",
+            "host": "127.0.0.1",
+            "dialect": "mysql",
+            "queueLimit": 0,
+            "connectionLimit": 0,
+            "logging": false,
+            "port": 3306,
+            "pool": {
+                "min": 10,
+                "max": 50
+            },
+            "dailectOption": {
+                "decimalNumbers": true,
+                "maxPreparedStatements": 100
+            }
+        },
+        "PORT": 500,
+        "JWT_SECRATE": "thisiswebtoken"
+    }
+}
